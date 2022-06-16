@@ -52,7 +52,7 @@ export function App() {
       }}
       >
         
-      <Section title="Please leave feedback">
+      <Section title="Please leave feedback!">
           
         <FeedbackOptions
             options={Object.keys(feedbackType)}
