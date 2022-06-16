@@ -15,7 +15,7 @@ export function App() {
   const onLeaveFeedback = e => {
     switch (e.target.value) {
       case "good":
-      return setGood(good + 1)
+        return setGood(good + 1)
         
       case "neutral":
         return setNeutral(neutral + 1)
